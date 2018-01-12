@@ -1,10 +1,10 @@
 # Python-Google-Translate
 
 # Dependencies:
-  Python 3
-  Selenium
-  PhantomJS Web Driver
-  Chrome Web Driver (optional)
+  1. Python 3
+  2. Selenium
+  3. PhantomJS Web Driver
+  4. Chrome Web Driver (optional)
  
 # Installation for Python 3
   Visit: https://www.python.org/downloads/ and download the version suitable for your System
@@ -26,5 +26,5 @@
   4. Breate in.... breathe out.... :)
   
 # Future plans
-  A GUI version is on the way. Please have patience....
+  A GUI version is on the way. 
   Contributions are always welcome :)
