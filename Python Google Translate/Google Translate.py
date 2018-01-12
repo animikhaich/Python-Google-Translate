@@ -1,6 +1,6 @@
 ######################################################
 ## Author: ANIMIKH AICH (animikhaich@gmail.com)     ##
-## 12 January 2018									##
+## 12 January 2018									                ##
 ## Google Translate Using Python                    ##
 ## RNS Institute of Technology, Bengaluru, India    ##
 ######################################################
