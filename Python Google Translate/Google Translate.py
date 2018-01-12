@@ -1,6 +1,6 @@
 ######################################################
 ## Author: ANIMIKH AICH (animikhaich@gmail.com)     ##
-## 12 January 2018									                ##
+## 12 January 2018                                  ##
 ## Google Translate Using Python                    ##
 ## RNS Institute of Technology, Bengaluru, India    ##
 ######################################################
@@ -106,6 +106,6 @@ driver.find_element_by_name('text').send_keys(myInput)  # Input the Desired text
 driver.find_element_by_id('gt-submit').click()          # Click on the translate button (not Mandatory)
 text_output = driver.find_element_by_id('result_box')   # Get the output text
 
-time.sleep(1)   # Because else it does not print the data
+time.sleep(1)   # Else it does not print the data
 print(text_output.text)
-driver.quit()   # Quit the driver
+driver.quit()
