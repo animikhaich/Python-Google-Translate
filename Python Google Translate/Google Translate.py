@@ -87,7 +87,10 @@ myLang = language.lower()
 # Find index of the desired language from the list
 # Set the url language code as per selected language
 index = lang_list.index(myLang)
-to_lang = lang_list[index+1]
+if index%2 == 0:
+    to_lang = lang_list[index+1]
+else:
+    to_lang = lang_list[index]
 
 # Construct the complete URL to search
 base_url = 'https://translate.google.com/#'
