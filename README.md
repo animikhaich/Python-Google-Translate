@@ -22,7 +22,7 @@
 ## How to use?
   1. Run the script
   2. Enter the text to be translated
-  3. Enter the Language to be translated to (Enter full language, not just the code)
+  3. Enter the Language to be translated to (Enter full language name or the code)
   4. Breate in.... breathe out.... :)
   
 ## Future plans
