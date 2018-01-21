@@ -50,10 +50,10 @@ base_url = 'https://translate.google.com/#'
 from_lang = 'en'
 final_url = base_url + from_lang + '/' + to_lang
 
-# Initialize Selenium Driver
+# Initialize Selenium Web Drivers
 # PhantomJS is used, Chrome is kept as backup for debugging
-driver = webdriver.PhantomJS('C:\\Selenium Driver\\phantomjs.exe')
-# driver = webdriver.Chrome('C:\\Selenium Driver\\chromedriver.exe')
+driver = webdriver.PhantomJS('C:\\Selenium Web Drivers\\phantomjs.exe')
+# driver = webdriver.Chrome('C:\\Selenium Web Drivers\\chromedriver.exe')
 
 # Perform operation to detect the translated text
 driver.set_page_load_timeout(30)        # Incase Page doesn't load
