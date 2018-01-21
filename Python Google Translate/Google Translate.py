@@ -69,5 +69,5 @@ print(text_output.text)
 time_end = time.time()
 time_taken = time_end - time_start  # Time required
 f.close()
-print('The amount of time taken to run the script is %.3f' %time_taken)
+print('The amount of time taken to run the script is %.3f seconds' %time_taken)
 driver.quit()
