@@ -17,7 +17,7 @@
   
   Visit: http://selenium-python.readthedocs.io/installation.html for details.
   
-## Installation for Selenium
+## Installation for Numpy
   Open Command Prompt (Windows) or Terminal (Linux) and type in the following command:
      
      pip install numpy
