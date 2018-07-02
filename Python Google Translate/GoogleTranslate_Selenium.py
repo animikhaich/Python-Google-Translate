@@ -18,7 +18,7 @@ def translate(myInput, language):
     warnings.filterwarnings("ignore")
 
     # List of Languages supported
-    f = open('Language_List.csv', 'r')
+    f = open('./Assets/Language_List.csv', 'r')
 
     # Read data from csv file
     reader = csv.reader(f)
