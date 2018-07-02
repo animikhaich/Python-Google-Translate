@@ -1,3 +1,10 @@
+######################################################
+## Author: ANIMIKH AICH (animikhaich@gmail.com)     ##
+## 02 July 2018                                     ##
+## Google Translate Using Python                    ##
+## RNS Institute of Technology, Bengaluru, India    ##
+######################################################
+
 import sys, os
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
