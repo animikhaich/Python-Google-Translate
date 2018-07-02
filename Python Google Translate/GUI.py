@@ -11,7 +11,7 @@ class Window(QMainWindow, QWidget):
         super(Window, self).__init__()
         self.setGeometry(450, 450, 800, 520)
         self.setWindowTitle('Translator')
-        self.setWindowIcon(QIcon('icon.png'))
+        self.setWindowIcon(QIcon('./Assets/icon.png'))
         self.wid = QWidget(self)
         self.setCentralWidget(self.wid)
         self.exit_text = 'Exited Application'
@@ -84,7 +84,7 @@ class Window(QMainWindow, QWidget):
         self.num_lines.setFont(new_font)
 
         # Setting the logo or picture in the middle
-        pixmap = QPixmap(os.getcwd() + "/main.png").scaled(250, 250, Qt.KeepAspectRatio)
+        pixmap = QPixmap(os.getcwd() + "./Assets/main.png").scaled(250, 250, Qt.KeepAspectRatio)
         pic = QLabel(self)
         pic.setPixmap(pixmap)
         pic.setAlignment(Qt.AlignCenter)
@@ -247,5 +247,3 @@ if __name__ == '__main__':
     GUI = Window()
     # GUI.show()
     sys.exit(app.exec_())
-
-
