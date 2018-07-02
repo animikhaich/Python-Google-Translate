@@ -50,8 +50,8 @@ def translate(myInput, language):
 
     # Initialize Selenium Driver
     # PhantomJS is used, Chrome is kept as backup for debugging
-    driver = webdriver.PhantomJS('C:\\Selenium Driver\\phantomjs.exe')
-    # driver = webdriver.Chrome('C:\\Selenium Driver\\chromedriver.exe')
+    driver = webdriver.PhantomJS('./Selenium Web Drivers/phantomjs.exe')
+    # driver = webdriver.Chrome('./Selenium Web Drivers/chromedriver.exe')
 
     # Perform operation to detect the translated text
     driver.set_page_load_timeout(30)        # Incase Page doesn't load
